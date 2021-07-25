@@ -6,7 +6,7 @@ read io
 size=${io}
 while [ $i -lt $size ]
 do
-	echo Enter $((i+1)) value to add
+	echo Enter value $((i+1)) to add
 	read io
 	valuestoAdd[$i]=${io}
 	let i+=1
